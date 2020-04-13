@@ -1,0 +1,13 @@
+__pycache__
+cache.json
+*.ipynb
+*ipynb_notebooks
+documents/
+*pptx
+*sqlite
+data/
+cache.py
+database.py
+dictionary_builder_for_airports.py
+aviation_crash.py
+
