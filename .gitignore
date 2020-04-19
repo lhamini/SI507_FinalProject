@@ -5,9 +5,10 @@ cache.json
 documents/
 *pptx
 *sqlite
-data/
-cache.py
-database.py
 dictionary_builder_for_airports.py
 aviation_crash.py
+help.txt
+aviation/
+plane_crash_test.py
+secrets.py
 

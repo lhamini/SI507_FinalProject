@@ -148,9 +148,7 @@ def get_crash_instance(crash_url):
         for tr in table_rows[1:]:
             td = tr.find_all('td')
             if td[0].text.strip() == "Date:" and td[1].text.strip() != '?':
-                date = str(pd.to_datetime(td[1].text.strip(), dayfirst=True).date())
-            if td[0].text.strip() == "Time:" and td[1].text.strip() != '?':
-                time = td[1].text.strip()
+                date = td[1].text.strip()
             if td[0].text.strip() == "Location:" and td[1].text.strip() != '?':
                 if ',' in td[1].text.strip():
                     loc = td[1].text.strip()
@@ -226,12 +224,12 @@ if __name__ == "__main__":
 
 
 
-    with open('data/crash.csv', mode='w') as crash_file:
-        
+    with open('data/crash_original_format_from_web.csv', mode='w') as crash_file:
+
         crash_writer = csv.writer(crash_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for list in crash_instance_list:
             for item in list:
-                crash_writer.writerow([item.date, item.time, item.location, item.country, item.departure,
+                crash_writer.writerow([item.date, item.location, item.country, item.departure,
                                        item.destination, item.acType, item.operator, item.occupants, item.fatalities, item.summary])
 
 
@@ -239,6 +237,3 @@ if __name__ == "__main__":
     # load_aircrafts()
     # load_countries()
     # load_crashes()
-
-    # load_aircrafts()
-    # load_countries()

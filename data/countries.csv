@@ -1,0 +1,251 @@
+,name,alpha2Code,alpha3Code,region,latlng,area,flag
+0,Afghanistan,AF,AFG,Asia,"[33.0, 65.0]",652230.0,https://restcountries.eu/data/afg.svg
+1,Åland Islands,AX,ALA,Europe,"[60.116667, 19.9]",1580.0,https://restcountries.eu/data/ala.svg
+2,Albania,AL,ALB,Europe,"[41.0, 20.0]",28748.0,https://restcountries.eu/data/alb.svg
+3,Algeria,DZ,DZA,Africa,"[28.0, 3.0]",2381741.0,https://restcountries.eu/data/dza.svg
+4,American Samoa,AS,ASM,Oceania,"[-14.33333333, -170.0]",199.0,https://restcountries.eu/data/asm.svg
+5,Andorra,AD,AND,Europe,"[42.5, 1.5]",468.0,https://restcountries.eu/data/and.svg
+6,Angola,AO,AGO,Africa,"[-12.5, 18.5]",1246700.0,https://restcountries.eu/data/ago.svg
+7,Anguilla,AI,AIA,Americas,"[18.25, -63.16666666]",91.0,https://restcountries.eu/data/aia.svg
+8,Antarctica,AQ,ATA,Polar,"[-74.65, 4.48]",14000000.0,https://restcountries.eu/data/ata.svg
+9,Antigua and Barbuda,AG,ATG,Americas,"[17.05, -61.8]",442.0,https://restcountries.eu/data/atg.svg
+10,Argentina,AR,ARG,Americas,"[-34.0, -64.0]",2780400.0,https://restcountries.eu/data/arg.svg
+11,Armenia,AM,ARM,Asia,"[40.0, 45.0]",29743.0,https://restcountries.eu/data/arm.svg
+12,Aruba,AW,ABW,Americas,"[12.5, -69.96666666]",180.0,https://restcountries.eu/data/abw.svg
+13,Australia,AU,AUS,Oceania,"[-27.0, 133.0]",7692024.0,https://restcountries.eu/data/aus.svg
+14,Austria,AT,AUT,Europe,"[47.33333333, 13.33333333]",83871.0,https://restcountries.eu/data/aut.svg
+15,Azerbaijan,AZ,AZE,Asia,"[40.5, 47.5]",86600.0,https://restcountries.eu/data/aze.svg
+16,Bahamas,BS,BHS,Americas,"[24.25, -76.0]",13943.0,https://restcountries.eu/data/bhs.svg
+17,Bahrain,BH,BHR,Asia,"[26.0, 50.55]",765.0,https://restcountries.eu/data/bhr.svg
+18,Bangladesh,BD,BGD,Asia,"[24.0, 90.0]",147570.0,https://restcountries.eu/data/bgd.svg
+19,Barbados,BB,BRB,Americas,"[13.16666666, -59.53333333]",430.0,https://restcountries.eu/data/brb.svg
+20,Belarus,BY,BLR,Europe,"[53.0, 28.0]",207600.0,https://restcountries.eu/data/blr.svg
+21,Belgium,BE,BEL,Europe,"[50.83333333, 4.0]",30528.0,https://restcountries.eu/data/bel.svg
+22,Belize,BZ,BLZ,Americas,"[17.25, -88.75]",22966.0,https://restcountries.eu/data/blz.svg
+23,Benin,BJ,BEN,Africa,"[9.5, 2.25]",112622.0,https://restcountries.eu/data/ben.svg
+24,Bermuda,BM,BMU,Americas,"[32.33333333, -64.75]",54.0,https://restcountries.eu/data/bmu.svg
+25,Bhutan,BT,BTN,Asia,"[27.5, 90.5]",38394.0,https://restcountries.eu/data/btn.svg
+26,Bolivia,BO,BOL,Americas,"[-17.0, -65.0]",1098581.0,https://restcountries.eu/data/bol.svg
+27,"Bonaire, Sint Eustatius and Saba",BQ,BES,Americas,"[12.15, -68.266667]",294.0,https://restcountries.eu/data/bes.svg
+28,Bosnia and Herzegovina,BA,BIH,Europe,"[44.0, 18.0]",51209.0,https://restcountries.eu/data/bih.svg
+29,Botswana,BW,BWA,Africa,"[-22.0, 24.0]",582000.0,https://restcountries.eu/data/bwa.svg
+30,Bouvet Island,BV,BVT,,"[-54.43333333, 3.4]",49.0,https://restcountries.eu/data/bvt.svg
+31,Brazil,BR,BRA,Americas,"[-10.0, -55.0]",8515767.0,https://restcountries.eu/data/bra.svg
+32,British Indian Ocean Territory,IO,IOT,Africa,"[-6.0, 71.5]",60.0,https://restcountries.eu/data/iot.svg
+33,United States Minor Outlying Islands,UM,UMI,Americas,[],,https://restcountries.eu/data/umi.svg
+34,Virgin Islands,VG,VGB,Americas,"[18.431383, -64.62305]",151.0,https://restcountries.eu/data/vgb.svg
+35,Virgin Islands,VI,VIR,Americas,"[18.34, -64.93]",346.36,https://restcountries.eu/data/vir.svg
+36,Brunei Darussalam,BN,BRN,Asia,"[4.5, 114.66666666]",5765.0,https://restcountries.eu/data/brn.svg
+37,Bulgaria,BG,BGR,Europe,"[43.0, 25.0]",110879.0,https://restcountries.eu/data/bgr.svg
+38,Burkina Faso,BF,BFA,Africa,"[13.0, -2.0]",272967.0,https://restcountries.eu/data/bfa.svg
+39,Burundi,BI,BDI,Africa,"[-3.5, 30.0]",27834.0,https://restcountries.eu/data/bdi.svg
+40,Cambodia,KH,KHM,Asia,"[13.0, 105.0]",181035.0,https://restcountries.eu/data/khm.svg
+41,Cameroon,CM,CMR,Africa,"[6.0, 12.0]",475442.0,https://restcountries.eu/data/cmr.svg
+42,Canada,CA,CAN,Americas,"[60.0, -95.0]",9984670.0,https://restcountries.eu/data/can.svg
+43,Cabo Verde,CV,CPV,Africa,"[16.0, -24.0]",4033.0,https://restcountries.eu/data/cpv.svg
+44,Cayman Islands,KY,CYM,Americas,"[19.5, -80.5]",264.0,https://restcountries.eu/data/cym.svg
+45,Central African Republic,CF,CAF,Africa,"[7.0, 21.0]",622984.0,https://restcountries.eu/data/caf.svg
+46,Chad,TD,TCD,Africa,"[15.0, 19.0]",1284000.0,https://restcountries.eu/data/tcd.svg
+47,Chile,CL,CHL,Americas,"[-30.0, -71.0]",756102.0,https://restcountries.eu/data/chl.svg
+48,China,CN,CHN,Asia,"[35.0, 105.0]",9640011.0,https://restcountries.eu/data/chn.svg
+49,Christmas Island,CX,CXR,Oceania,"[-10.5, 105.66666666]",135.0,https://restcountries.eu/data/cxr.svg
+50,Cocos  Islands,CC,CCK,Oceania,"[-12.5, 96.83333333]",14.0,https://restcountries.eu/data/cck.svg
+51,Colombia,CO,COL,Americas,"[4.0, -72.0]",1141748.0,https://restcountries.eu/data/col.svg
+52,Comoros,KM,COM,Africa,"[-12.16666666, 44.25]",1862.0,https://restcountries.eu/data/com.svg
+53,Congo,CG,COG,Africa,"[-1.0, 15.0]",342000.0,https://restcountries.eu/data/cog.svg
+54,Congo,CD,COD,Africa,"[0.0, 25.0]",2344858.0,https://restcountries.eu/data/cod.svg
+55,Cook Islands,CK,COK,Oceania,"[-21.23333333, -159.76666666]",236.0,https://restcountries.eu/data/cok.svg
+56,Costa Rica,CR,CRI,Americas,"[10.0, -84.0]",51100.0,https://restcountries.eu/data/cri.svg
+57,Croatia,HR,HRV,Europe,"[45.16666666, 15.5]",56594.0,https://restcountries.eu/data/hrv.svg
+58,Cuba,CU,CUB,Americas,"[21.5, -80.0]",109884.0,https://restcountries.eu/data/cub.svg
+59,Curaçao,CW,CUW,Americas,"[12.116667, -68.933333]",444.0,https://restcountries.eu/data/cuw.svg
+60,Cyprus,CY,CYP,Europe,"[35.0, 33.0]",9251.0,https://restcountries.eu/data/cyp.svg
+61,Czech Republic,CZ,CZE,Europe,"[49.75, 15.5]",78865.0,https://restcountries.eu/data/cze.svg
+62,Denmark,DK,DNK,Europe,"[56.0, 10.0]",43094.0,https://restcountries.eu/data/dnk.svg
+63,Djibouti,DJ,DJI,Africa,"[11.5, 43.0]",23200.0,https://restcountries.eu/data/dji.svg
+64,Dominica,DM,DMA,Americas,"[15.41666666, -61.33333333]",751.0,https://restcountries.eu/data/dma.svg
+65,Dominican Republic,DO,DOM,Americas,"[19.0, -70.66666666]",48671.0,https://restcountries.eu/data/dom.svg
+66,Ecuador,EC,ECU,Americas,"[-2.0, -77.5]",276841.0,https://restcountries.eu/data/ecu.svg
+67,Egypt,EG,EGY,Africa,"[27.0, 30.0]",1002450.0,https://restcountries.eu/data/egy.svg
+68,El Salvador,SV,SLV,Americas,"[13.83333333, -88.91666666]",21041.0,https://restcountries.eu/data/slv.svg
+69,Equatorial Guinea,GQ,GNQ,Africa,"[2.0, 10.0]",28051.0,https://restcountries.eu/data/gnq.svg
+70,Eritrea,ER,ERI,Africa,"[15.0, 39.0]",117600.0,https://restcountries.eu/data/eri.svg
+71,Estonia,EE,EST,Europe,"[59.0, 26.0]",45227.0,https://restcountries.eu/data/est.svg
+72,Ethiopia,ET,ETH,Africa,"[8.0, 38.0]",1104300.0,https://restcountries.eu/data/eth.svg
+73,Falkland Islands,FK,FLK,Americas,"[-51.75, -59.0]",12173.0,https://restcountries.eu/data/flk.svg
+74,Faroe Islands,FO,FRO,Europe,"[62.0, -7.0]",1393.0,https://restcountries.eu/data/fro.svg
+75,Fiji,FJ,FJI,Oceania,"[-18.0, 175.0]",18272.0,https://restcountries.eu/data/fji.svg
+76,Finland,FI,FIN,Europe,"[64.0, 26.0]",338424.0,https://restcountries.eu/data/fin.svg
+77,France,FR,FRA,Europe,"[46.0, 2.0]",640679.0,https://restcountries.eu/data/fra.svg
+78,French Guiana,GF,GUF,Americas,"[4.0, -53.0]",,https://restcountries.eu/data/guf.svg
+79,French Polynesia,PF,PYF,Oceania,"[-15.0, -140.0]",4167.0,https://restcountries.eu/data/pyf.svg
+80,French Southern Territories,TF,ATF,Africa,"[-49.25, 69.167]",7747.0,https://restcountries.eu/data/atf.svg
+81,Gabon,GA,GAB,Africa,"[-1.0, 11.75]",267668.0,https://restcountries.eu/data/gab.svg
+82,Gambia,GM,GMB,Africa,"[13.46666666, -16.56666666]",11295.0,https://restcountries.eu/data/gmb.svg
+83,Georgia,GE,GEO,Asia,"[42.0, 43.5]",69700.0,https://restcountries.eu/data/geo.svg
+84,Germany,DE,DEU,Europe,"[51.0, 9.0]",357114.0,https://restcountries.eu/data/deu.svg
+85,Ghana,GH,GHA,Africa,"[8.0, -2.0]",238533.0,https://restcountries.eu/data/gha.svg
+86,Gibraltar,GI,GIB,Europe,"[36.13333333, -5.35]",6.0,https://restcountries.eu/data/gib.svg
+87,Greece,GR,GRC,Europe,"[39.0, 22.0]",131990.0,https://restcountries.eu/data/grc.svg
+88,Greenland,GL,GRL,Americas,"[72.0, -40.0]",2166086.0,https://restcountries.eu/data/grl.svg
+89,Grenada,GD,GRD,Americas,"[12.11666666, -61.66666666]",344.0,https://restcountries.eu/data/grd.svg
+90,Guadeloupe,GP,GLP,Americas,"[16.25, -61.583333]",,https://restcountries.eu/data/glp.svg
+91,Guam,GU,GUM,Oceania,"[13.46666666, 144.78333333]",549.0,https://restcountries.eu/data/gum.svg
+92,Guatemala,GT,GTM,Americas,"[15.5, -90.25]",108889.0,https://restcountries.eu/data/gtm.svg
+93,Guernsey,GG,GGY,Europe,"[49.46666666, -2.58333333]",78.0,https://restcountries.eu/data/ggy.svg
+94,Guinea,GN,GIN,Africa,"[11.0, -10.0]",245857.0,https://restcountries.eu/data/gin.svg
+95,Guinea-Bissau,GW,GNB,Africa,"[12.0, -15.0]",36125.0,https://restcountries.eu/data/gnb.svg
+96,Guyana,GY,GUY,Americas,"[5.0, -59.0]",214969.0,https://restcountries.eu/data/guy.svg
+97,Haiti,HT,HTI,Americas,"[19.0, -72.41666666]",27750.0,https://restcountries.eu/data/hti.svg
+98,Heard Island and McDonald Islands,HM,HMD,,"[-53.1, 72.51666666]",412.0,https://restcountries.eu/data/hmd.svg
+99,Holy See,VA,VAT,Europe,"[41.9, 12.45]",0.44,https://restcountries.eu/data/vat.svg
+100,Honduras,HN,HND,Americas,"[15.0, -86.5]",112492.0,https://restcountries.eu/data/hnd.svg
+101,Hong Kong,HK,HKG,Asia,"[22.25, 114.16666666]",1104.0,https://restcountries.eu/data/hkg.svg
+102,Hungary,HU,HUN,Europe,"[47.0, 20.0]",93028.0,https://restcountries.eu/data/hun.svg
+103,Iceland,IS,ISL,Europe,"[65.0, -18.0]",103000.0,https://restcountries.eu/data/isl.svg
+104,India,IN,IND,Asia,"[20.0, 77.0]",3287590.0,https://restcountries.eu/data/ind.svg
+105,Indonesia,ID,IDN,Asia,"[-5.0, 120.0]",1904569.0,https://restcountries.eu/data/idn.svg
+106,Côte d'Ivoire,CI,CIV,Africa,"[8.0, -5.0]",322463.0,https://restcountries.eu/data/civ.svg
+107,Iran,IR,IRN,Asia,"[32.0, 53.0]",1648195.0,https://restcountries.eu/data/irn.svg
+108,Iraq,IQ,IRQ,Asia,"[33.0, 44.0]",438317.0,https://restcountries.eu/data/irq.svg
+109,Ireland,IE,IRL,Europe,"[53.0, -8.0]",70273.0,https://restcountries.eu/data/irl.svg
+110,Isle of Man,IM,IMN,Europe,"[54.25, -4.5]",572.0,https://restcountries.eu/data/imn.svg
+111,Israel,IL,ISR,Asia,"[31.5, 34.75]",20770.0,https://restcountries.eu/data/isr.svg
+112,Italy,IT,ITA,Europe,"[42.83333333, 12.83333333]",301336.0,https://restcountries.eu/data/ita.svg
+113,Jamaica,JM,JAM,Americas,"[18.25, -77.5]",10991.0,https://restcountries.eu/data/jam.svg
+114,Japan,JP,JPN,Asia,"[36.0, 138.0]",377930.0,https://restcountries.eu/data/jpn.svg
+115,Jersey,JE,JEY,Europe,"[49.25, -2.16666666]",116.0,https://restcountries.eu/data/jey.svg
+116,Jordan,JO,JOR,Asia,"[31.0, 36.0]",89342.0,https://restcountries.eu/data/jor.svg
+117,Kazakhstan,KZ,KAZ,Asia,"[48.0, 68.0]",2724900.0,https://restcountries.eu/data/kaz.svg
+118,Kenya,KE,KEN,Africa,"[1.0, 38.0]",580367.0,https://restcountries.eu/data/ken.svg
+119,Kiribati,KI,KIR,Oceania,"[1.41666666, 173.0]",811.0,https://restcountries.eu/data/kir.svg
+120,Kuwait,KW,KWT,Asia,"[29.5, 45.75]",17818.0,https://restcountries.eu/data/kwt.svg
+121,Kyrgyzstan,KG,KGZ,Asia,"[41.0, 75.0]",199951.0,https://restcountries.eu/data/kgz.svg
+122,Lao People's Democratic Republic,LA,LAO,Asia,"[18.0, 105.0]",236800.0,https://restcountries.eu/data/lao.svg
+123,Latvia,LV,LVA,Europe,"[57.0, 25.0]",64559.0,https://restcountries.eu/data/lva.svg
+124,Lebanon,LB,LBN,Asia,"[33.83333333, 35.83333333]",10452.0,https://restcountries.eu/data/lbn.svg
+125,Lesotho,LS,LSO,Africa,"[-29.5, 28.5]",30355.0,https://restcountries.eu/data/lso.svg
+126,Liberia,LR,LBR,Africa,"[6.5, -9.5]",111369.0,https://restcountries.eu/data/lbr.svg
+127,Libya,LY,LBY,Africa,"[25.0, 17.0]",1759540.0,https://restcountries.eu/data/lby.svg
+128,Liechtenstein,LI,LIE,Europe,"[47.26666666, 9.53333333]",160.0,https://restcountries.eu/data/lie.svg
+129,Lithuania,LT,LTU,Europe,"[56.0, 24.0]",65300.0,https://restcountries.eu/data/ltu.svg
+130,Luxembourg,LU,LUX,Europe,"[49.75, 6.16666666]",2586.0,https://restcountries.eu/data/lux.svg
+131,Macao,MO,MAC,Asia,"[22.16666666, 113.55]",30.0,https://restcountries.eu/data/mac.svg
+132,Macedonia,MK,MKD,Europe,"[41.83333333, 22.0]",25713.0,https://restcountries.eu/data/mkd.svg
+133,Madagascar,MG,MDG,Africa,"[-20.0, 47.0]",587041.0,https://restcountries.eu/data/mdg.svg
+134,Malawi,MW,MWI,Africa,"[-13.5, 34.0]",118484.0,https://restcountries.eu/data/mwi.svg
+135,Malaysia,MY,MYS,Asia,"[2.5, 112.5]",330803.0,https://restcountries.eu/data/mys.svg
+136,Maldives,MV,MDV,Asia,"[3.25, 73.0]",300.0,https://restcountries.eu/data/mdv.svg
+137,Mali,ML,MLI,Africa,"[17.0, -4.0]",1240192.0,https://restcountries.eu/data/mli.svg
+138,Malta,MT,MLT,Europe,"[35.83333333, 14.58333333]",316.0,https://restcountries.eu/data/mlt.svg
+139,Marshall Islands,MH,MHL,Oceania,"[9.0, 168.0]",181.0,https://restcountries.eu/data/mhl.svg
+140,Martinique,MQ,MTQ,Americas,"[14.666667, -61.0]",,https://restcountries.eu/data/mtq.svg
+141,Mauritania,MR,MRT,Africa,"[20.0, -12.0]",1030700.0,https://restcountries.eu/data/mrt.svg
+142,Mauritius,MU,MUS,Africa,"[-20.28333333, 57.55]",2040.0,https://restcountries.eu/data/mus.svg
+143,Mayotte,YT,MYT,Africa,"[-12.83333333, 45.16666666]",,https://restcountries.eu/data/myt.svg
+144,Mexico,MX,MEX,Americas,"[23.0, -102.0]",1964375.0,https://restcountries.eu/data/mex.svg
+145,Micronesia,FM,FSM,Oceania,"[6.91666666, 158.25]",702.0,https://restcountries.eu/data/fsm.svg
+146,Moldova,MD,MDA,Europe,"[47.0, 29.0]",33846.0,https://restcountries.eu/data/mda.svg
+147,Monaco,MC,MCO,Europe,"[43.73333333, 7.4]",2.02,https://restcountries.eu/data/mco.svg
+148,Mongolia,MN,MNG,Asia,"[46.0, 105.0]",1564110.0,https://restcountries.eu/data/mng.svg
+149,Montenegro,ME,MNE,Europe,"[42.5, 19.3]",13812.0,https://restcountries.eu/data/mne.svg
+150,Montserrat,MS,MSR,Americas,"[16.75, -62.2]",102.0,https://restcountries.eu/data/msr.svg
+151,Morocco,MA,MAR,Africa,"[32.0, -5.0]",446550.0,https://restcountries.eu/data/mar.svg
+152,Mozambique,MZ,MOZ,Africa,"[-18.25, 35.0]",801590.0,https://restcountries.eu/data/moz.svg
+153,Myanmar,MM,MMR,Asia,"[22.0, 98.0]",676578.0,https://restcountries.eu/data/mmr.svg
+154,Namibia,,NAM,Africa,"[-22.0, 17.0]",825615.0,https://restcountries.eu/data/nam.svg
+155,Nauru,NR,NRU,Oceania,"[-0.53333333, 166.91666666]",21.0,https://restcountries.eu/data/nru.svg
+156,Nepal,NP,NPL,Asia,"[28.0, 84.0]",147181.0,https://restcountries.eu/data/npl.svg
+157,Netherlands,NL,NLD,Europe,"[52.5, 5.75]",41850.0,https://restcountries.eu/data/nld.svg
+158,New Caledonia,NC,NCL,Oceania,"[-21.5, 165.5]",18575.0,https://restcountries.eu/data/ncl.svg
+159,New Zealand,NZ,NZL,Oceania,"[-41.0, 174.0]",270467.0,https://restcountries.eu/data/nzl.svg
+160,Nicaragua,NI,NIC,Americas,"[13.0, -85.0]",130373.0,https://restcountries.eu/data/nic.svg
+161,Niger,NE,NER,Africa,"[16.0, 8.0]",1267000.0,https://restcountries.eu/data/ner.svg
+162,Nigeria,NG,NGA,Africa,"[10.0, 8.0]",923768.0,https://restcountries.eu/data/nga.svg
+163,Niue,NU,NIU,Oceania,"[-19.03333333, -169.86666666]",260.0,https://restcountries.eu/data/niu.svg
+164,Norfolk Island,NF,NFK,Oceania,"[-29.03333333, 167.95]",36.0,https://restcountries.eu/data/nfk.svg
+165,Korea,KP,PRK,Asia,"[40.0, 127.0]",120538.0,https://restcountries.eu/data/prk.svg
+166,Northern Mariana Islands,MP,MNP,Oceania,"[15.2, 145.75]",464.0,https://restcountries.eu/data/mnp.svg
+167,Norway,NO,NOR,Europe,"[62.0, 10.0]",323802.0,https://restcountries.eu/data/nor.svg
+168,Oman,OM,OMN,Asia,"[21.0, 57.0]",309500.0,https://restcountries.eu/data/omn.svg
+169,Pakistan,PK,PAK,Asia,"[30.0, 70.0]",881912.0,https://restcountries.eu/data/pak.svg
+170,Palau,PW,PLW,Oceania,"[7.5, 134.5]",459.0,https://restcountries.eu/data/plw.svg
+171,"Palestine, State of",PS,PSE,Asia,"[31.9, 35.2]",,https://restcountries.eu/data/pse.svg
+172,Panama,PA,PAN,Americas,"[9.0, -80.0]",75417.0,https://restcountries.eu/data/pan.svg
+173,Papua New Guinea,PG,PNG,Oceania,"[-6.0, 147.0]",462840.0,https://restcountries.eu/data/png.svg
+174,Paraguay,PY,PRY,Americas,"[-23.0, -58.0]",406752.0,https://restcountries.eu/data/pry.svg
+175,Peru,PE,PER,Americas,"[-10.0, -76.0]",1285216.0,https://restcountries.eu/data/per.svg
+176,Philippines,PH,PHL,Asia,"[13.0, 122.0]",342353.0,https://restcountries.eu/data/phl.svg
+177,Pitcairn,PN,PCN,Oceania,"[-25.06666666, -130.1]",47.0,https://restcountries.eu/data/pcn.svg
+178,Poland,PL,POL,Europe,"[52.0, 20.0]",312679.0,https://restcountries.eu/data/pol.svg
+179,Portugal,PT,PRT,Europe,"[39.5, -8.0]",92090.0,https://restcountries.eu/data/prt.svg
+180,Puerto Rico,PR,PRI,Americas,"[18.25, -66.5]",8870.0,https://restcountries.eu/data/pri.svg
+181,Qatar,QA,QAT,Asia,"[25.5, 51.25]",11586.0,https://restcountries.eu/data/qat.svg
+182,Republic of Kosovo,XK,KOS,Europe,"[42.666667, 21.166667]",10908.0,https://restcountries.eu/data/kos.svg
+183,Réunion,RE,REU,Africa,"[-21.15, 55.5]",,https://restcountries.eu/data/reu.svg
+184,Romania,RO,ROU,Europe,"[46.0, 25.0]",238391.0,https://restcountries.eu/data/rou.svg
+185,Russian Federation,RU,RUS,Europe,"[60.0, 100.0]",17124442.0,https://restcountries.eu/data/rus.svg
+186,Rwanda,RW,RWA,Africa,"[-2.0, 30.0]",26338.0,https://restcountries.eu/data/rwa.svg
+187,Saint Barthélemy,BL,BLM,Americas,"[18.5, -63.41666666]",21.0,https://restcountries.eu/data/blm.svg
+188,"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,Africa,"[-15.95, -5.7]",,https://restcountries.eu/data/shn.svg
+189,Saint Kitts and Nevis,KN,KNA,Americas,"[17.33333333, -62.75]",261.0,https://restcountries.eu/data/kna.svg
+190,Saint Lucia,LC,LCA,Americas,"[13.88333333, -60.96666666]",616.0,https://restcountries.eu/data/lca.svg
+191,Saint Martin,MF,MAF,Americas,"[18.08333333, -63.95]",53.0,https://restcountries.eu/data/maf.svg
+192,Saint Pierre and Miquelon,PM,SPM,Americas,"[46.83333333, -56.33333333]",242.0,https://restcountries.eu/data/spm.svg
+193,Saint Vincent and the Grenadines,VC,VCT,Americas,"[13.25, -61.2]",389.0,https://restcountries.eu/data/vct.svg
+194,Samoa,WS,WSM,Oceania,"[-13.58333333, -172.33333333]",2842.0,https://restcountries.eu/data/wsm.svg
+195,San Marino,SM,SMR,Europe,"[43.76666666, 12.41666666]",61.0,https://restcountries.eu/data/smr.svg
+196,Sao Tome and Principe,ST,STP,Africa,"[1.0, 7.0]",964.0,https://restcountries.eu/data/stp.svg
+197,Saudi Arabia,SA,SAU,Asia,"[25.0, 45.0]",2149690.0,https://restcountries.eu/data/sau.svg
+198,Senegal,SN,SEN,Africa,"[14.0, -14.0]",196722.0,https://restcountries.eu/data/sen.svg
+199,Serbia,RS,SRB,Europe,"[44.0, 21.0]",88361.0,https://restcountries.eu/data/srb.svg
+200,Seychelles,SC,SYC,Africa,"[-4.58333333, 55.66666666]",452.0,https://restcountries.eu/data/syc.svg
+201,Sierra Leone,SL,SLE,Africa,"[8.5, -11.5]",71740.0,https://restcountries.eu/data/sle.svg
+202,Singapore,SG,SGP,Asia,"[1.36666666, 103.8]",710.0,https://restcountries.eu/data/sgp.svg
+203,Sint Maarten,SX,SXM,Americas,"[18.033333, -63.05]",34.0,https://restcountries.eu/data/sxm.svg
+204,Slovakia,SK,SVK,Europe,"[48.66666666, 19.5]",49037.0,https://restcountries.eu/data/svk.svg
+205,Slovenia,SI,SVN,Europe,"[46.11666666, 14.81666666]",20273.0,https://restcountries.eu/data/svn.svg
+206,Solomon Islands,SB,SLB,Oceania,"[-8.0, 159.0]",28896.0,https://restcountries.eu/data/slb.svg
+207,Somalia,SO,SOM,Africa,"[10.0, 49.0]",637657.0,https://restcountries.eu/data/som.svg
+208,South Africa,ZA,ZAF,Africa,"[-29.0, 24.0]",1221037.0,https://restcountries.eu/data/zaf.svg
+209,South Georgia and the South Sandwich Islands,GS,SGS,Americas,"[-54.5, -37.0]",,https://restcountries.eu/data/sgs.svg
+210,Korea,KR,KOR,Asia,"[37.0, 127.5]",100210.0,https://restcountries.eu/data/kor.svg
+211,South Sudan,SS,SSD,Africa,"[7.0, 30.0]",619745.0,https://restcountries.eu/data/ssd.svg
+212,Spain,ES,ESP,Europe,"[40.0, -4.0]",505992.0,https://restcountries.eu/data/esp.svg
+213,Sri Lanka,LK,LKA,Asia,"[7.0, 81.0]",65610.0,https://restcountries.eu/data/lka.svg
+214,Sudan,SD,SDN,Africa,"[15.0, 30.0]",1886068.0,https://restcountries.eu/data/sdn.svg
+215,Suriname,SR,SUR,Americas,"[4.0, -56.0]",163820.0,https://restcountries.eu/data/sur.svg
+216,Svalbard and Jan Mayen,SJ,SJM,Europe,"[78.0, 20.0]",,https://restcountries.eu/data/sjm.svg
+217,Swaziland,SZ,SWZ,Africa,"[-26.5, 31.5]",17364.0,https://restcountries.eu/data/swz.svg
+218,Sweden,SE,SWE,Europe,"[62.0, 15.0]",450295.0,https://restcountries.eu/data/swe.svg
+219,Switzerland,CH,CHE,Europe,"[47.0, 8.0]",41284.0,https://restcountries.eu/data/che.svg
+220,Syrian Arab Republic,SY,SYR,Asia,"[35.0, 38.0]",185180.0,https://restcountries.eu/data/syr.svg
+221,Taiwan,TW,TWN,Asia,"[23.5, 121.0]",36193.0,https://restcountries.eu/data/twn.svg
+222,Tajikistan,TJ,TJK,Asia,"[39.0, 71.0]",143100.0,https://restcountries.eu/data/tjk.svg
+223,"Tanzania, United Republic of",TZ,TZA,Africa,"[-6.0, 35.0]",945087.0,https://restcountries.eu/data/tza.svg
+224,Thailand,TH,THA,Asia,"[15.0, 100.0]",513120.0,https://restcountries.eu/data/tha.svg
+225,Timor-Leste,TL,TLS,Asia,"[-8.83333333, 125.91666666]",14874.0,https://restcountries.eu/data/tls.svg
+226,Togo,TG,TGO,Africa,"[8.0, 1.16666666]",56785.0,https://restcountries.eu/data/tgo.svg
+227,Tokelau,TK,TKL,Oceania,"[-9.0, -172.0]",12.0,https://restcountries.eu/data/tkl.svg
+228,Tonga,TO,TON,Oceania,"[-20.0, -175.0]",747.0,https://restcountries.eu/data/ton.svg
+229,Trinidad and Tobago,TT,TTO,Americas,"[11.0, -61.0]",5130.0,https://restcountries.eu/data/tto.svg
+230,Tunisia,TN,TUN,Africa,"[34.0, 9.0]",163610.0,https://restcountries.eu/data/tun.svg
+231,Turkey,TR,TUR,Asia,"[39.0, 35.0]",783562.0,https://restcountries.eu/data/tur.svg
+232,Turkmenistan,TM,TKM,Asia,"[40.0, 60.0]",488100.0,https://restcountries.eu/data/tkm.svg
+233,Turks and Caicos Islands,TC,TCA,Americas,"[21.75, -71.58333333]",948.0,https://restcountries.eu/data/tca.svg
+234,Tuvalu,TV,TUV,Oceania,"[-8.0, 178.0]",26.0,https://restcountries.eu/data/tuv.svg
+235,Uganda,UG,UGA,Africa,"[1.0, 32.0]",241550.0,https://restcountries.eu/data/uga.svg
+236,Ukraine,UA,UKR,Europe,"[49.0, 32.0]",603700.0,https://restcountries.eu/data/ukr.svg
+237,United Arab Emirates,AE,ARE,Asia,"[24.0, 54.0]",83600.0,https://restcountries.eu/data/are.svg
+238,United Kingdom of Great Britain and Northern Ireland,GB,GBR,Europe,"[54.0, -2.0]",242900.0,https://restcountries.eu/data/gbr.svg
+239,United States of America,US,USA,Americas,"[38.0, -97.0]",9629091.0,https://restcountries.eu/data/usa.svg
+240,Uruguay,UY,URY,Americas,"[-33.0, -56.0]",181034.0,https://restcountries.eu/data/ury.svg
+241,Uzbekistan,UZ,UZB,Asia,"[41.0, 64.0]",447400.0,https://restcountries.eu/data/uzb.svg
+242,Vanuatu,VU,VUT,Oceania,"[-16.0, 167.0]",12189.0,https://restcountries.eu/data/vut.svg
+243,Venezuela,VE,VEN,Americas,"[8.0, -66.0]",916445.0,https://restcountries.eu/data/ven.svg
+244,Viet Nam,VN,VNM,Asia,"[16.16666666, 107.83333333]",331212.0,https://restcountries.eu/data/vnm.svg
+245,Wallis and Futuna,WF,WLF,Oceania,"[-13.3, -176.2]",142.0,https://restcountries.eu/data/wlf.svg
+246,Western Sahara,EH,ESH,Africa,"[24.5, -13.0]",266000.0,https://restcountries.eu/data/esh.svg
+247,Yemen,YE,YEM,Asia,"[15.0, 48.0]",527968.0,https://restcountries.eu/data/yem.svg
+248,Zambia,ZM,ZMB,Africa,"[-15.0, 30.0]",752612.0,https://restcountries.eu/data/zmb.svg
+249,Zimbabwe,ZW,ZWE,Africa,"[-20.0, 30.0]",390757.0,https://restcountries.eu/data/zwe.svg

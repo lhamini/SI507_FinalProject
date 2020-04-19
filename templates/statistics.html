@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Statistic Page{% endblock %}
+{% block contents %}
+  <h1 class="p-4 bg-warning">Airplane Crashes in <span class="text-danger">{{year}}</span></h1>
+  <div class="mx-auto" style="width: 1000px;">
+  {% for r in agg_for_each_year %}
+    <h3 class="p-3">This year had <span class="text-danger"> {{ r[1]}} </span>major airplane crashes leading to <span class="text-danger"> {{ r[2]|round|int }}</span> death.</h3>
+  {% endfor %}
+  </div>
+  {% if show_results=='table' %}
+    {{map_for_each_year_div | safe}}
+    <div class="container">
+    {{bar_for_each_year_div | safe }}
+    <p class="p-3">The following table contains all major crashes in {{year}}; to find about deatils of each crash click on dates: </p>
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+          <th scop="col">Date</th>
+          <th scop="col">Countries</th>
+          <th scop="col">Fatalities</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for r in crashes_for_each_year %}
+      <tr scop="row">
+          <td><a href='/{{r[1]}}'>{{ r[1] }}</a></td>
+          <td>{{ r[2] }}</td>
+          <td>{{ r[3] }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  {% elif show_results=='plot' %}
+    {{map_for_each_year_div | safe}}
+    {{bar_for_each_year_div | safe }}
+  {% endif %}
+{% endblock %}

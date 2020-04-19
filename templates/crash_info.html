@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Crash Details {% endblock%}
+{% block contents %}
+
+    <h1 class="p-4 bg-warning">Summary of this crash:</h1>
+    {% for r in crash_details %}
+     <h4 class="p-4">{{r[8]}}</h4>
+    {% endfor %}
+    <div class="container">
+    <p class="p">You can find details about this crash in the below table: </p>
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+          <th scop="col">Info</th>
+          <th scop="col"></th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for r in crash_details %}
+        <tr scop="row">
+            <td>Date</td>
+            <td>{{ r[1] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Country</td>
+            <td>{{ r[0] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Approximate Location</td>
+            <td>{{ r[2] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Departure</td>
+            <td>{{ r[3] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Destination</td>
+            <td>{{ r[4] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>operator</td>
+            <td>{{ r[5] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Occupants</td>
+            <td>{{ r[6] }}</td>
+        </tr>
+        <tr scop="row">
+            <td>Fatalities</td>
+            <td>{{ r[7] }}</td>
+        </tr>
+
+      </tbody>
+    </table>
+    {% endfor %}
+
+    </div>
+
+{% endblock%}
