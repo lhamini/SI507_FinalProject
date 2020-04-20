@@ -2,8 +2,6 @@ import plotly.graph_objs as go
 import secrets
 import sqlite3
 
-app = Flask(__name__)
-
 DBNAME = 'PlaneCrashes.sqlite'
 mapbox_access_token = secrets.mapbox_token
 
