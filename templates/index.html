@@ -1,14 +1,15 @@
 {% extends "base.html" %}
 {% block title %}Home Page{% endblock %}
 {% block contents %}
-  <div style="background-image:url('/static/img/1.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-size:cover;height:1200px">
+  <div style="background-image:url('/static/img/1.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-size:cover;height:90vh">
     <h1 class="p-3 bg-warning">Welcome to the World of Plane Crashes!</h1>
-    <p class="p-4">You can explore airplane crashes in each year, find out where and why they happend, and many more information...<p>
+    <p class="p-4";>You can explore airplane crashes in each <span class="font-weight-bold">year</span>, find out <span class="font-weight-bold">where</span> and <span class="font-weight-bold">why</span> they happend, and many more information...<p>
 
   <div class='container'>
-  <form action='/statistics' method='POST'>
-    <div class="form-group">
-      <p class="font-weight-bold dark-body">To start, choose a year:</p>
+  <div style="opacity:0.9">
+  <form class="p-4 mb-3 bg-dark" action='/statistics' method='POST'>
+    <div class="form-group;">
+      <p class="font-weight-bold text-white">To start, choose a year:</p>
       <select class="form-control" id="exampleFormControlSelect1" name="year">
         {% for r in year_list %}
         <option value="{{ r[0] }}">{{ r[0] }}</option>
@@ -16,26 +17,31 @@
       </select>
     </div>
     <div class="form-group">
-      <p class="font-weight-bold text-body">Sort by:</p>
+      <p class="pt-3 font-weight-bold text-white">Sort by:</p>
       <select class="form-control" id="exampleFormControlSelect1" name="sort">
         <option value="fatalities"> Fatalities </option>
         <option value="country"> Country </option>
         <option value="date"> Date </option>
       </select>
     </div>
-      <p class="font-weight-bold dark-body">results by:<p>
+      <p class="font-weight-bold text-white">results by:<p>
     <div class="form-check">
         <input class="form-check-input" type="radio" name="show_results" id="exampleRadios1" value="table" checked>
-        <label class="form-check-label font-weight-bold text-info" for="exampleRadios1">Table and Plot</label>
+        <label class="form-check-label text-white" for="exampleRadios1">Table and Plot</label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="radio" name="show_results" id="exampleRadios2" value="plot">
-        <label class="form-check-label  font-weight-bold text-info" for="exampleRadios2">Only Plot</label>
+        <label class="form-check-label text-white" for="exampleRadios2">Only Plot</label>
     </div>
     <br>
-    <button type='submit' class="btn btn-dark">Get Results</button>
-
+    <button type='submit' class="btn btn-light">Get Results</button>
   </form>
   </div>
   </div>
+  </div>
+  <!-- Footer -->
+  <footer id="main-footer" class="pt-2 py-4 bg-dark text-white text-center">
+    Copyright &copy;
+    <span class="year"></span> Elham Amini
+  </footer>
 {% endblock %}

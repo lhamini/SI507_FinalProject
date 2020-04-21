@@ -231,9 +231,3 @@ if __name__ == "__main__":
             for item in list:
                 crash_writer.writerow([item.date, item.location, item.country, item.departure,
                                        item.destination, item.acType, item.operator, item.occupants, item.fatalities, item.summary])
-
-
-    # create_db()
-    # load_aircrafts()
-    # load_countries()
-    # load_crashes()

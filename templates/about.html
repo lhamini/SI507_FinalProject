@@ -1,5 +1,60 @@
 {% extends "base.html" %}
 {% block title %}About Page{% endblock %}
 {% block contents %}
-<p>This is About me and project page</p>
+<section id="showcase-inner" class="py-5 bg-warning">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1 class="display-4">The World of Airplane Crashes</h1>
+        <p class="lead">1920-2020!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About -->
+<section id="about" class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h3>Are you looking for informatin about airplane crashes?</h3>
+        <p class="lead">Here, you can find all informatin about major airplane crashes that has happend so far.</p>
+        <img src="static/img/1.jpg" class="img-fluid" alt="">
+        <p class="mt-4">You can explore airplane crashes in each year, find out where and why they happend, and many more information.
+          To start, you can choose a year, decide the sorting order (Fatalities/Date/Country), and the representatin you want to see (table/map).</p>
+        <p class="font-weight-bold">Data source:</br>
+        <a href='http://www.planecrashinfo.com'>www.planecrashinfo.com</a></p>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="static/img/30.jpg" class="img-fluid" alt="">
+          <div class="card-body">
+            <p class="card-text">This project is the final project for the course SI-507 Python Programming!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Author -->
+<hr>
+<section id="team" class="py-5">
+  <div class="container">
+    <h3 class="text-center">Author</h3>
+    <div class="row text-center">
+      <div class="col-md-2 mx-auto" style="width: 200px; ">
+        <img src="static/img/50.jpg" alt="" class=" img-fluid rounded-circle mb-12">
+        <h4>Elham Amini</h4>
+        <p class="text-success">Data Science Student</p>
+        <hr>
+
+        <p>
+          <i><a href="https://github.com/lhamini/SI507_FinalProject"><img class="bg-dark" src="static/img/GitHub-Mark-Light-32px.png"></a></i><br>
+          <i class="fa fa-at bg-dark"></i> eamini at umich.edu</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 {% endblock %}

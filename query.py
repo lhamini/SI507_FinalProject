@@ -30,7 +30,8 @@ def agg_for_each_year(year):
 
     Parameters
     ----------
-    None
+    year
+        the year of crashes
 
     Returns
     -------
@@ -46,6 +47,18 @@ def agg_for_each_year(year):
     return db_connection_setup(query)
 
 def question1():
+    ''' Constructs and executes SQL query to retrieve
+    data based on requirements
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    list
+        a list of tuples that represent the query result
+    '''
     query='''
         SELECT name, region, alpha2Code, latlng, flag, count(*), sum(fatalities) FROM Crashes
     	JOIN Countries
@@ -56,26 +69,99 @@ def question1():
     return db_connection_setup(query)
 
 def crash_year_list():
+    ''' Constructs and executes SQL query to retrieve
+    data based on requirements
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    list
+        a list of tuples that represent the query result
+    '''
+
     query='''
         SELECT DISTINCT strftime("%Y", date) as year
         From Crashes
     '''
     return db_connection_setup(query)
 
+
 def crashes_for_each_year(year, sort):
+    ''' Constructs and executes SQL query to retrieve
+    data based on requirements
+
+    Parameters
+    ----------
+    year
+        specific year of crashes
+    sort
+        sort (fatalities/country/date)
+
+    Returns
+    -------
+    list
+        a list of tuples that represent the query result
+    '''
+
+    order=''
     if sort == "country":
         sort='name'
+    if sort == 'fatalities':
+        order='DESC'
     query=f'''
         SELECT strftime("%Y", date) as year, date, name, fatalities, occupants
         FROM Crashes
         JOIN Countries
         ON Crashes.countryId = Countries.Id
         WHERE year=="{year}"
-        ORDER BY {sort} DESC
+        ORDER BY {sort} {order}
+    '''
+    return db_connection_setup(query)
+
+def crash_details_query(date):
+    ''' Constructs and executes SQL query to retrieve
+    data based on requirements
+
+    Parameters
+    ----------
+    date
+        date of crash
+
+    Returns
+    -------
+    list
+        a list of tuples that represent the query result
+    '''
+
+    query=f'''
+    SELECT  name, date, location, departure, destination, operator, occupants, fatalities, summary
+    FROM Crashes
+    JOIN Countries
+    ON Crashes.countryId = Countries.Id
+    WHERE date = "{date}"
     '''
     return db_connection_setup(query)
 
 def map_query(year, sort):
+    ''' Constructs and executes SQL query to retrieve
+    data based on requirements
+
+    Parameters
+    ----------
+    year
+        specific year of crashes
+    sort
+        sort (fatalities/country/date)
+
+    Returns
+    -------
+    list
+        a list of tuples that represent the query result
+    '''
+
     if sort == "country":
         sort='name'
     query=f'''
@@ -90,6 +176,20 @@ def map_query(year, sort):
     return db_connection_setup(query)
 
 def plot_map(year, sort):
+    ''' Create a map of crashes using plotly
+
+    Parameters
+    ----------
+    year
+        specific year of crashes
+    sort
+        sort (fatalities/country/date)
+
+    Returns
+    -------
+    div
+        a div html containing the vis
+    '''
     results = map_query(year, sort)
     crash_lat = []
     crash_lon = []
@@ -131,6 +231,21 @@ def plot_map(year, sort):
     return div
 
 def plot_bar(year, sort):
+    ''' Create a bar chart of crashes using plotly
+
+    Parameters
+    ----------
+    year
+        specific year of crashes
+    sort
+        sort (fatalities/country/date)
+
+    Returns
+    -------
+    div
+        a div html containing the vis
+    '''
+
     results = crashes_for_each_year(year, sort)
     x_axis = list(range(len(results)))
     y_axis = [r[3] for r in results]
@@ -163,14 +278,3 @@ def plot_bar(year, sort):
     fig = go.Figure(data=data_bar)
     div = fig.to_html(full_html=False)
     return div
-
-
-def crash_details_query(date):
-    query=f'''
-    SELECT  name, date, location, departure, destination, operator, occupants, fatalities, summary
-    FROM Crashes
-    JOIN Countries
-    ON Crashes.countryId = Countries.Id
-    WHERE date = "{date}"
-    '''
-    return db_connection_setup(query)
