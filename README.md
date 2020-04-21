@@ -2,9 +2,14 @@
 
 You can find all informatin about major airplane crashes that has happend so far.
 
-## Getting Started
+## Description
+You can explore airplane crashes in each year, find out where and why they happend, and many more information.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To start, you can choose a year, decide the sorting order (Fatalities/Date/Country), and the representatin you want to see (table/map). 
+
+After submiting the request, you will see a new page showing the following results:
+
+
 
 ### Prerequisites
 
