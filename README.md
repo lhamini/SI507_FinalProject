@@ -35,12 +35,11 @@ After clicking on a date, you will see a new page showing the following results:
 - Plotly
 - [Mapbox](https://www.mapbox.com) API key 
 
+### Guide
+plane_crash.py: scraping and saving data in csv format
+database.py: create and populate database
+app.py: establish the web interface
 
-
-
-```
-Give examples
-```
 
 ## Authors
 
