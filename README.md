@@ -1,6 +1,6 @@
 # World of Airplane Crashes 
 
-You can find all informatin about major airplane crashes that has happend so far.
+You can find all informatin about major airplane crashes that has happend so far. (This project is the final project for the course SI-507 Python Programming)
 
 ## Description
 You can explore airplane crashes in each year, find out where and why they happend, and many more information.
@@ -44,7 +44,7 @@ Give examples
 
 ## Authors
 
-* **Elham Amini** 
+* **Elham Amini** Data Science student at the University of Michigan School of Information
 
 ## Data Source 
 [planecrash.info](http://www.planecrashinfo.com)
