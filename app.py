@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import query
+import search
 app = Flask(__name__)
 
 
@@ -30,11 +31,34 @@ def statistics():
 def about():
     return render_template('about.html')
 
+# @app.route('/searchbox', methods=['POST', 'GET'])
+# def searchbox():
+#     return render_template('search.html')
+
+@app.route('/searchbox')
+def results():
+    return render_template('search.html')
+
+@app.route('/searchbox', methods=['POST'])
+def process_res():
+    user_search_query = request.form['msg']
+    corpus, ranking_function, cache_dict= search.corpus_index()
+    date_list = list(cache_dict.keys())
+    summary_list = list(cache_dict.values())
+    tokenized_query = user_search_query.split(" ")
+    response = ranking_function.get_top_n(tokenized_query, corpus, n=10)
+    return render_template('search.html', search_results_list = response,
+                                          user_query=user_search_query,
+                                          date_list=date_list,
+                                          summary_list=summary_list)
+
 
 @app.route('/<date>')
 def crash_details(date):
     crash_details = query.crash_details_query(date)
     return render_template('crash_info.html', crash_details=crash_details)
+
+
 
 
 if __name__ == "__main__":

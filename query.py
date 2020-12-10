@@ -88,6 +88,15 @@ def crash_year_list():
     '''
     return db_connection_setup(query)
 
+def crash_documents():
+    query='''
+    SELECT  date, summary
+    FROM Crashes
+    JOIN Countries
+    ON Crashes.countryId = Countries.Id
+    '''
+    return db_connection_setup(query)
+
 
 def crashes_for_each_year(year, sort):
     ''' Constructs and executes SQL query to retrieve
