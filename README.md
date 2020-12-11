@@ -1,5 +1,7 @@
 # World of Airplane Crashes
 
+![alt text](static/img/search.png)
+
 You can find all informatin about major airplane crashes that has happend so far.
 
 ## Description
