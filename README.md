@@ -1,11 +1,13 @@
-# World of Airplane Crashes 
+# World of Airplane Crashes
 
-You can find all informatin about major airplane crashes that has happend so far. (This project is the final project for the course SI-507 Python Programming)
+You can find all informatin about major airplane crashes that has happend so far.
 
 ## Description
-You can explore airplane crashes in each year, find out where and why they happend, and many more information.
+You can search through 5000 airplane crash documents and find the most related crashes to your search query.
 
-To start, you can choose a year, decide the sorting order (Fatalities/Date/Country), and the representatin you want to see (table/map). 
+Moreover, You can explore airplane crashes in each year, find out where and why they happend, and many more information.
+
+To start, you can choose a year, decide the sorting order (Fatalities/Date/Country), and the representatin you want to see (table/map).
 
 After submiting the request, you will see a new page showing the following results:
 
@@ -17,7 +19,7 @@ After submiting the request, you will see a new page showing the following resul
 
 After clicking on a date, you will see a new page showing the following results:
 
-- Summary of what happend 
+- Summary of what happend
 - Date
 - Country
 - Approximation location
@@ -31,9 +33,11 @@ After clicking on a date, you will see a new page showing the following results:
 
 ### Install Requirements
 
-- Flask 
+- nltk
+- rank_bm25
+- Flask
 - Plotly
-- [Mapbox](https://www.mapbox.com) API key 
+- [Mapbox](https://www.mapbox.com) API key
 
 ### Guide
 - plane_crash.py: scraping and saving data in csv format
@@ -45,11 +49,5 @@ After clicking on a date, you will see a new page showing the following results:
 
 * **Elham Amini** Data Science student at the University of Michigan School of Information
 
-## Data Source 
+## Data Source
 [planecrash.info](http://www.planecrashinfo.com)
-
-
-## Acknowledgments
-
-* Mark Newman, awesome SI507 instroctor and his teaching team
-
