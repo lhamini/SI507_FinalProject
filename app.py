@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import query
 import search
+import numpy as np
 app = Flask(__name__)
 
 
@@ -46,8 +47,15 @@ def process_res():
     date_list = list(cache_dict.keys())
     summary_list = list(cache_dict.values())
     tokenized_query = search.remove_stopwords(user_search_query.lower().split(" "))
-    response = ranking_function.get_top_n(tokenized_query, corpus, n=10)
-    return render_template('search.html', search_results_list = response,
+    scores = ranking_function.get_scores(tokenized_query)
+    top_n = np.argsort(scores)[::-1][:10]
+    result_list = []
+    for i in top_n:
+        if scores[i] !=0:
+            result_list.append(corpus[i])
+
+    #response = ranking_function.get_top_n(tokenized_query, corpus, n=10)
+    return render_template('search.html', search_results_list = result_list,
                                           user_query=user_search_query,
                                           date_list=date_list,
                                           summary_list=summary_list)
